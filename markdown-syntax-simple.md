@@ -68,6 +68,24 @@ _italic_
   2. get dressed
   3. brush teeth
 
+Note that lists can also contain sub-levels. For example:
+```
+  1. First ordered list item
+  2. Another item
+    * Unordered sub-list
+  3. And another item
+    1. Ordered sub-list
+  15. And another item
+```
+  1. First ordered list item
+  2. Another item
+    * Unordered sub-list
+  3. And another item
+    1. Ordered sub-list
+  15. And another item
+
+Note that in the syntax you don't even have to use the "correct" numbers - any number will do.
+
 
 #### Links
 ```
