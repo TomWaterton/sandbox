@@ -16,4 +16,5 @@ For example:
 * pears
 * badgers
 * grapes
-* etc.
+* lemons
+* strawberries
