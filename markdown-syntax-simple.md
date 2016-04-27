@@ -1,5 +1,5 @@
 ## Markdown - basic syntax
-(I'll use the format: heading / Markdown syntax / how this is then rendered)
+(I'll use the following format: heading / Markdown syntax / how this is then rendered)
 
 
 #### Headings
@@ -38,25 +38,30 @@ result in a line break.
 
 #### Text attributes
 ```
-_italic_
-**bold**
+_italic_ (or *italic*)  
+**bold** (or __bold__)  
 `monospace`
 ```
-_italic_
-**bold**
+_italic_ (or *italic*)  
+**bold** (or __bold__)  
 `monospace`
 
 
 #### Bullet list
 ```
-  * apples
-  * oranges
-  * pears
+  - apples 
+  - oranges
+  - pears
+  * bananas
+  * plums
+  * grapes
 ```
-  * apples
-  * oranges
-  * pears
-
+  - apples 
+  - oranges
+  - pears
+  * bananas
+  * plums
+  * grapes
 
 #### Numbered list
 ```
