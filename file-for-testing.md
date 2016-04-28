@@ -16,4 +16,5 @@ For example:
 * pears
 * badgers - no longer considered a fruit
 * grapes
+* strawberries
 * etc.
