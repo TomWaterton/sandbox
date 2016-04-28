@@ -1,6 +1,7 @@
 ## Markdown - basic syntax
-(I'll use the following format: heading / Markdown syntax / how this is then rendered)
+(In this document I use the following format: heading \> Markdown syntax \> how this is then rendered)
 
+---
 
 #### Headings
 ```
@@ -18,6 +19,7 @@
 ##### heading 5
 ###### heading 6 (smallest)
 
+---
 
 #### Paragraphs / line breaks
 ```
@@ -35,19 +37,24 @@ Like this.
 Two spaces at the end of a line - like here:  
 result in a line break.
 
+---
 
 #### Text attributes
 ```
 _italic_ (or *italic*)  
 **bold** (or __bold__)  
-`monospace`
+`monospace`  
+~~strikethrough~~
 ```
 _italic_ (or *italic*)  
 **bold** (or __bold__)  
-`monospace`
+`monospace`  
+~~strikethrough~~
 
+---
 
 #### Bullet list
+You can use dashes or asterisks. 
 ```
   - apples 
   - oranges
@@ -62,6 +69,8 @@ _italic_ (or *italic*)
   * bananas
   * plums
   * grapes
+
+---
 
 #### Numbered list
 ```
@@ -73,7 +82,7 @@ _italic_ (or *italic*)
   2. get dressed
   3. brush teeth
 
-Note that lists can also contain sub-levels. For example:
+Any list can also contain sub-levels. For example:
 ```
   1. First ordered list item
   2. Another item
@@ -89,8 +98,9 @@ Note that lists can also contain sub-levels. For example:
     1. Ordered sub-list
   15. And another item
 
-Note that in the syntax you don't even have to use the "correct" numbers - any number will do.
+(Note that in the syntax you don't even have to use the "correct" numbers - any number will do.)
 
+---
 
 #### Links
 ```
@@ -109,6 +119,8 @@ you can use the following relative link syntax:
 ```
 and GitHub will ensure the link resolves to `user/repo/blob/branch/other_file.md`.
 
+---
+
 #### Code blocks
 ```
 Surround the contents of the code block with 3 back ticks (i.e. 3x` at the beginning and end)
@@ -117,9 +129,20 @@ Blah, blah, blah
 etc.
 ```
 
+---
 
 #### Code phrase
 ```
 Surround the code phrase in back ticks (e.g. `i_love_cake`)
 ```
 Enter `i_love_cake` into the command line. 
+
+---
+
+#### Comments
+You can add comments to the source by surrounding the comment text with a `<!--` and a `-->` (just like in HTML).
+
+---
+
+#### Escape character
+You can tell GitHub to ignore (or escape) Markdown formatting by using `\` before the Markdown character.
