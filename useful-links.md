@@ -1,6 +1,7 @@
 ## Useful links
 
 #### Markdown
+  * [GitHub Guides: Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
   * [GitHub Help: Basic writing and formatting syntax](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
   * [GitHub Help: Writing on GitHub](https://help.github.com/categories/writing-on-github/)
   * [Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
