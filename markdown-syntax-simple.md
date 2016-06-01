@@ -102,6 +102,18 @@ Any list can also contain sub-levels. For example:
 
 ---
 
+#### Task (To-Do) list 
+```
+- [x] this is a completed item
+- [ ] this is an incomplete item
+- [ ] this is another incomplete item
+```
+- [x] this is a completed item
+- [ ] this is an incomplete item
+- [ ] this is another incomplete item
+
+---
+
 #### Links
 ```
 Here is a [link](http://bbc.co.uk/news) to the BBC News web site.
